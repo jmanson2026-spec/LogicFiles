@@ -43,5 +43,7 @@ public class Main5 {
         if (r3 == r0 + 3) pass++;
 
         System.out.println("passed: " + pass + "/6");
+        // test 7: prints out the display to make sure displaying the world works :)
+        display.displayworld(w);
     }
 }
