@@ -34,7 +34,7 @@ public class display {
             double posX = z.position.x;
             double posY = z.position.y;
             char item = itemid(z);
-            cc[(int)posX][(int)posY] = item;
+            cc[(int)posY][(int)posX] = item;
         }
         printchar(cc);
     }
